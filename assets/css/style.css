@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -9,22 +8,26 @@ body {
 }
 
 header {
-
+    padding: 15px;
+    background-color: #092C47;
 }
 
 header h1 {
-    display: inline-block
+    display: inline-block;
+    background-color: rgb(100, 214, 255);
+    color: #092C47;
 }
 
 header nav {
     float: right;
-
-}
-
-header nav ul {
-    list-style-type: none;
+    padding-top: 10px;
 }
 
 header nav ul li {
-    display: inline-block
+    display: inline-block;
+    color: #092C47;
+}
+
+a {
+    color: rgb(100, 214, 255);
 }
