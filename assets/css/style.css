@@ -37,11 +37,11 @@ header nav ul li:hover {
     background-color: var(--light);
 }
 
-a {
+a.navbar {
     color: var(--light);
 }
 
-a:hover {
+a.navbar:hover {
     color: var(--dark);
 }
 
@@ -60,18 +60,25 @@ a:hover {
     color: var(--dark);
 }
 
-.float-left {
-     text-align: left;
+section h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: var(--dark) 3px solid;
 }
 
-.float-right {
-    border-left: thick solid var(--dark);
-    padding: 10px
+.body {
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.float-left,
-.float-right {
-    display: inline-block;
+.content {
+ flex: 0 0 75%;
+}
+
+.list {
+    list-style: none;
 }
 
 footer {
