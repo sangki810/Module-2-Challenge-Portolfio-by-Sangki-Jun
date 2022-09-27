@@ -40,6 +40,12 @@ a:hover {
     color: #092C47;
 }
 
+.cover-photo {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .float-left {
      text-align: left;
 }
