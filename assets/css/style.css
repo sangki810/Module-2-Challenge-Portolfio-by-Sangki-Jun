@@ -65,5 +65,15 @@ a:hover {
 }
 
 .float-right {
-    text-align: right;
+    border-left: thick solid var(--dark);
+    padding: 10px
+}
+
+.float-left,
+.float-right {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
 }
