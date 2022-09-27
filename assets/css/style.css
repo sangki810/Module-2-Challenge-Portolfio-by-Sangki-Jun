@@ -45,22 +45,18 @@ a.navbar:hover {
     color: var(--dark);
 }
 
-.cover-photo {
-    height: 300px;
-    width: 100%;
-    object-fit:cover;
-    position: relative;
+#cover-photo {
+    border: 3px blue solid;
+    min-height: 200px;
+    max-height: 200px;
+
+    background-image: url('./Module-2-Challenge-Portolfio-by-Sangki-Jun/assets/images/cover-image.jpg');
+    background-size: cover;
+
+    margin-bottom: 5px;
 }
 
-#cool-subtitle {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    background-color: var(--light);
-    color: var(--dark);
-}
-
-section h2 {
+section h3 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -75,6 +71,10 @@ section h2 {
 
 .content {
  flex: 0 0 75%;
+}
+
+#contact-list{
+    display: inline-block;
 }
 
 .list {
