@@ -1,3 +1,8 @@
+:root {
+    --dark: #092C47;
+    --light: rgb(100, 214, 255);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,13 +14,13 @@ body {
 
 header {
     padding: 15px;
-    background-color: #092C47;
+    background-color: var(--dark);
 }
 
 header h1 {
     display: inline-block;
-    background-color: rgb(100, 214, 255);
-    color: #092C47;
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 header nav {
@@ -25,25 +30,34 @@ header nav {
 
 header nav ul li {
     display: inline-block;
-    color: #092C47;
+    color: var(--dark);
 }
 
 header nav ul li:hover {
-    background-color: rgb(100, 214, 255);
+    background-color: var(--light);
 }
 
 a {
-    color: rgb(100, 214, 255);
+    color: var(--light);
 }
 
 a:hover {
-    color: #092C47;
+    color: var(--dark);
 }
 
 .cover-photo {
     height: 300px;
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
+    position: relative;
+}
+
+#cool-subtitle {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 .float-left {
