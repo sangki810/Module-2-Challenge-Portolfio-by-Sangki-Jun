@@ -28,6 +28,22 @@ header nav ul li {
     color: #092C47;
 }
 
+header nav ul li:hover {
+    background-color: rgb(100, 214, 255);
+}
+
 a {
     color: rgb(100, 214, 255);
+}
+
+a:hover {
+    color: #092C47;
+}
+
+.float-left {
+     text-align: left;
+}
+
+.float-right {
+    text-align: right;
 }
