@@ -59,7 +59,13 @@ a.navbar:hover {
     
 }
 
-section h3 {
+.body {
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.body h3 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -68,15 +74,59 @@ section h3 {
     font-size: x-large;
 }
 
-.body {
-    display: flex; 
-    justify-content: space-between;
-    padding: 20px;
-}
-
 .content {
     flex: 0 0 75%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content ul li {
+    display: inline;
+    padding: 20px;
+}
+
+#surf-report{
+    height: 300px;
+    width: 1000px;
+    border: var(--light) 3px solid;
+    margin-bottom: 20px;
+    background-image: url("../../assets/images/SURF-report.jpg");
+    background-size: cover;
+}
+
+#led-wall {
+    height: 150px;
+    width: 500px;
+    border: var(--light) 3px solid;
+    margin-bottom: 20px;
+    background-image: url("../../assets/images/led-wall.jpg");
+    background-size: cover;
+}
+
+#calculator {
+    height: 150px;
+    width: 500px;
+    border: var(--light) 3px solid;
+    margin-bottom: 20px;
+    background-image: url("../../assets/images/calculator.jpg");
+    background-size: cover;
+}
+
+#pastel-puzzles {
+    height: 150px;
+    width: 500px;
+    border: var(--light) 3px solid;
+    margin-bottom: 20px;
+    background-image: url("../../assets/images/pastel-puzzles.jpg");
+    background-size: cover;
+}
+
+#run-buddy {
+    height: 150px;
+    width: 500px;
+    border: var(--light) 3px solid;
+    margin-bottom: 20px;
+    background-image: url("../../assets/images/run-buddy.jpg");
+    background-size: cover;
 }
 
 a.contacts {
@@ -85,6 +135,10 @@ a.contacts {
 
 a.contacts:hover {
     background-color: var(--light);
+}
+
+.list {
+    list-style: none;
 }
 
 footer {
