@@ -79,13 +79,6 @@ section h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.list {
-    list-style: none;
-}
-
-.list ul {
-}
-
 a.contacts {
     color: var(--dark)
 }
