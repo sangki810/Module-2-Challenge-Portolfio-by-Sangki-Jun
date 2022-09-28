@@ -1,3 +1,4 @@
+/*added variables under root for repeated color scheme*/
 :root {
     --dark: #092C47;
     --light: rgb(100, 214, 255);
@@ -36,7 +37,7 @@ header nav ul li {
 header nav ul li:hover {
     background-color: var(--light);
 }
-
+/*added color change to links when cursor hovers*/
 a.navbar {
     color: var(--light);
 }
@@ -44,7 +45,7 @@ a.navbar {
 a.navbar:hover {
     color: var(--dark);
 }
-
+/*image is in CSS as taught by tutor*/
 #cover-photo {
     height: 200px;
     background-image: url("../../assets/images/cover-image.jpg");
@@ -83,7 +84,7 @@ a.navbar:hover {
     display: inline;
     padding: 20px;
 }
-
+/*could not figure out how to stack the smaller boxes next to each other or flex wrap them*/
 #surf-report{
     height: 300px;
     width: 1000px;
@@ -163,6 +164,7 @@ footer {
     padding-bottom: 10px;
 }
 
+/*changes the position of the headings from the side to the top, border line also changes*/
 @media screen and (max-width: 992px) {
     .body {
         display: block;
