@@ -50,7 +50,7 @@ a.navbar:hover {
     min-height: 200px;
     max-height: 200px;
 
-    background-image: url('./Module-2-Challenge-Portolfio-by-Sangki-Jun/assets/images/cover-image.jpg');
+    background-image: url("./Module-2-Challenge-Portolfio-by-Sangki-Jun/assets/images/cover-image.jpg");
     background-size: cover;
 
     margin-bottom: 5px;
@@ -61,6 +61,7 @@ section h3 {
     text-align: right;
     padding-right: 15px;
     border-right: var(--dark) 3px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .body {
@@ -70,11 +71,7 @@ section h3 {
 }
 
 .content {
- flex: 0 0 75%;
-}
-
-#contact-list{
-    display: inline-block;
+    flex: 0 0 75%;
 }
 
 .list {
