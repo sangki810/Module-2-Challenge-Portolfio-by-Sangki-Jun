@@ -88,7 +88,7 @@ a.navbar:hover {
     height: 300px;
     width: 1000px;
     border: var(--light) 3px solid;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url("../../assets/images/SURF-report.jpg");
     background-size: cover;
 }
@@ -97,7 +97,7 @@ a.navbar:hover {
     height: 150px;
     width: 500px;
     border: var(--light) 3px solid;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url("../../assets/images/led-wall.jpg");
     background-size: cover;
 }
@@ -106,7 +106,7 @@ a.navbar:hover {
     height: 150px;
     width: 500px;
     border: var(--light) 3px solid;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url("../../assets/images/calculator.jpg");
     background-size: cover;
 }
@@ -115,7 +115,7 @@ a.navbar:hover {
     height: 150px;
     width: 500px;
     border: var(--light) 3px solid;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url("../../assets/images/pastel-puzzles.jpg");
     background-size: cover;
 }
@@ -124,9 +124,25 @@ a.navbar:hover {
     height: 150px;
     width: 500px;
     border: var(--light) 3px solid;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-image: url("../../assets/images/run-buddy.jpg");
     background-size: cover;
+}
+
+.tag1 {
+    display: inline-block;
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 10px;
+    margin-top: 250px;
+}
+
+.tag2 {
+    display: inline-block;
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 10px;
+    margin-top: 100px;
 }
 
 a.contacts {
@@ -134,7 +150,8 @@ a.contacts {
 }
 
 a.contacts:hover {
-    background-color: var(--light);
+    background-color: var(--dark);
+    color: var(--light)
 }
 
 .list {
@@ -143,4 +160,17 @@ a.contacts:hover {
 
 footer {
     text-align: center;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .body {
+        display: inline-block
+    }
+
+    .body h3 {
+        border-right: none;
+        border-bottom: var(--dark) 3px solid;
+        text-align: center;
+    }
 }
