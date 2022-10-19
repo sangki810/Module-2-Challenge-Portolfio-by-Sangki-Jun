@@ -100,7 +100,7 @@ a.navbar:hover {
 /* css for photo-block elements in work section */
 #game-finder{
     height: 300px;
-    width: 1000px;
+    width: 1015px;
     border: var(--light) 3px solid;
     margin-bottom: 10px;
     background-image: url("../../assets/images/Game\ Finder.jpg");
@@ -115,6 +115,7 @@ a.navbar:hover {
     margin-bottom: 10px;
     background-image: url("../../assets/images/led-wall.jpg");
     background-size: cover;
+    margin-right: 10px;
 }
 
 #calculator {
@@ -133,6 +134,7 @@ a.navbar:hover {
     margin-bottom: 10px;
     background-image: url("../../assets/images/pastel-puzzles.jpg");
     background-size: cover;
+    margin-right: 10px;
 }
 
 #run-buddy {
@@ -142,6 +144,11 @@ a.navbar:hover {
     margin-bottom: 10px;
     background-image: url("../../assets/images/run-buddy.jpg");
     background-size: cover;
+}
+
+.row1, 
+.row2 {
+    display: flex;
 }
 
 .tag1 {
@@ -202,7 +209,7 @@ footer {
 }
 
 /* media query for changes in css when window is re-sized */
-@media screen and (max-width: 1092px) {
+@media screen and (max-width: 1124px) {
     .body {
         display: block;
     }
@@ -229,5 +236,18 @@ footer {
         background-color: var(--light);
         padding: 10px;
         margin-top: 50px;
+    }
+
+    #game-finder,
+    #led-wall,
+    #calculator,
+    #pastel-puzzles,
+    #run-buddy {
+        width: 100%;
+    }
+
+    .row1,
+    .row2 {
+        flex-direction: column;
     }
 }
