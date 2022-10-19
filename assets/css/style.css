@@ -1,18 +1,21 @@
-/*added variables under root for repeated color scheme*/
+/* variables for repeated color scheme */
 :root {
     --dark: #092C47;
     --light: rgb(100, 214, 255);
 }
 
+/* global css */
 * {
     padding: 0;
     margin: 0;
 }
 
+/* css for all content shown on page */
 body {
     background-color: #f0f8ff;
 }
 
+/* css for all header content */
 header {
     padding: 15px;
     background-color: var(--dark);
@@ -22,6 +25,7 @@ header h1 {
     display: inline-block;
     background-color: var(--light);
     color: var(--dark);
+    border-radius: 0.1cm;
 }
 
 header nav {
@@ -37,19 +41,23 @@ header nav ul li {
 header nav ul li:hover {
     background-color: var(--light);
 }
-/*added color change to links when cursor hovers*/
+
 a.navbar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--light);
 }
 
 a.navbar:hover {
     color: var(--dark);
 }
-/*image is in CSS as taught by tutor*/
+
+/* css for cover photo content*/
 #cover-photo {
-    height: 200px;
     background-image: url("../../assets/images/cover-image.jpg");
+    height: 200px;
+    background-position: center;
     background-size: cover;
+    text-align: right;
 }
 
 #cover-photo h2 {
@@ -57,7 +65,8 @@ a.navbar:hover {
     background-color: var(--light);
     color: var(--dark);
     margin-top: 140px;
-    
+    border-radius: 0.1cm;
+    margin-right: 15px;
 }
 
 .body {
@@ -84,7 +93,7 @@ a.navbar:hover {
     display: inline;
     padding: 20px;
 }
-/*could not figure out how to stack the smaller boxes next to each other or flex wrap them*/
+
 #surf-report{
     height: 300px;
     width: 1000px;
@@ -147,7 +156,8 @@ a.navbar:hover {
 }
 
 a.contacts {
-    color: var(--dark)
+    color: var(--dark);
+    text-decoration: none;
 }
 
 a.contacts:hover {
@@ -155,8 +165,17 @@ a.contacts:hover {
     color: var(--light)
 }
 
+#contact-list {
+    margin-top: 5px;
+}
+
+
 .list {
     list-style: none;
+}
+
+#resume-list {
+    margin-top: 5px;
 }
 
 footer {
@@ -165,7 +184,7 @@ footer {
 }
 
 /*changes the position of the headings from the side to the top, border line also changes*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1066px) {
     .body {
         display: block;
     }
@@ -174,5 +193,22 @@ footer {
         border-right: none;
         border-bottom: var(--dark) 3px solid;
         text-align: center;
+    }
+
+    #surf-report {
+        height: 150px;
+        width: 500px;
+        border: var(--light) 3px solid;
+        margin-bottom: 10px;
+        background-image: url("../../assets/images/SURF-report.jpg");
+        background-size: cover;
+    }
+
+    .tag1 {
+        display: inline-block;
+        color: var(--dark);
+        background-color: var(--light);
+        padding: 10px;
+        margin-top: 100px;
     }
 }
