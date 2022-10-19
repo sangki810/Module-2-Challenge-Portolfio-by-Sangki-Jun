@@ -94,12 +94,13 @@ a.navbar:hover {
     padding: 20px;
 }
 
-#surf-report{
+#game-finder{
     height: 300px;
     width: 1000px;
     border: var(--light) 3px solid;
     margin-bottom: 10px;
-    background-image: url("../../assets/images/SURF-report.jpg");
+    background-image: url("../../assets/images/Game\ Finder.jpg");
+    background-position: center;
     background-size: cover;
 }
 
@@ -144,7 +145,7 @@ a.navbar:hover {
     color: var(--dark);
     background-color: var(--light);
     padding: 10px;
-    margin-top: 250px;
+    margin-top: 125px;
 }
 
 .tag2 {
@@ -152,7 +153,7 @@ a.navbar:hover {
     color: var(--dark);
     background-color: var(--light);
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 a.contacts {
@@ -184,7 +185,7 @@ footer {
 }
 
 /*changes the position of the headings from the side to the top, border line also changes*/
-@media screen and (max-width: 1066px) {
+@media screen and (max-width: 1092px) {
     .body {
         display: block;
     }
@@ -195,12 +196,13 @@ footer {
         text-align: center;
     }
 
-    #surf-report {
+    #game-finder {
         height: 150px;
         width: 500px;
         border: var(--light) 3px solid;
         margin-bottom: 10px;
-        background-image: url("../../assets/images/SURF-report.jpg");
+        background-image: url("../../assets/images/Game\ Finder.jpg");
+        background-position: center;
         background-size: cover;
     }
 
@@ -209,6 +211,6 @@ footer {
         color: var(--dark);
         background-color: var(--light);
         padding: 10px;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
