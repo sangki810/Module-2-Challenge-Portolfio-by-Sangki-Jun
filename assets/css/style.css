@@ -69,6 +69,7 @@ a.navbar:hover {
     margin-right: 15px;
 }
 
+/* css for all main content */
 .body {
     display: flex; 
     justify-content: space-between;
@@ -94,6 +95,7 @@ a.navbar:hover {
     padding: 20px;
 }
 
+/* css for photo-block elements in work section */
 #game-finder{
     height: 300px;
     width: 1000px;
@@ -156,6 +158,16 @@ a.navbar:hover {
     margin-top: 50px;
 }
 
+#game-finder:hover,
+#led-wall:hover,
+#calculator:hover,
+#pastel-puzzles:hover,
+#run-buddy:hover {
+    opacity: .5;
+    filter:invert(1);
+}
+
+/* css for contact me section */
 a.contacts {
     color: var(--dark);
     text-decoration: none;
@@ -170,21 +182,21 @@ a.contacts:hover {
     margin-top: 5px;
 }
 
-
 .list {
     list-style: none;
 }
-
+/*  css for resume section */
 #resume-list {
     margin-top: 5px;
 }
 
+/* css for footer */
 footer {
     text-align: center;
     padding-bottom: 10px;
 }
 
-/*changes the position of the headings from the side to the top, border line also changes*/
+/* media query for changes in css when window is re-sized */
 @media screen and (max-width: 1092px) {
     .body {
         display: block;
