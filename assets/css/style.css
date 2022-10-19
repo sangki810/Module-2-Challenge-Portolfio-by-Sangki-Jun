@@ -36,6 +36,7 @@ header nav {
 header nav ul li {
     display: inline-block;
     color: var(--dark);
+    border-radius: 0.1cm;
 }
 
 header nav ul li:hover {
@@ -45,6 +46,7 @@ header nav ul li:hover {
 a.navbar {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--light);
+    
 }
 
 a.navbar:hover {
@@ -171,6 +173,7 @@ a.navbar:hover {
 a.contacts {
     color: var(--dark);
     text-decoration: none;
+    border-radius: 0.1cm;
 }
 
 a.contacts:hover {
@@ -180,11 +183,13 @@ a.contacts:hover {
 
 #contact-list {
     margin-top: 5px;
+    
 }
 
 .list {
     list-style: none;
 }
+
 /*  css for resume section */
 #resume-list {
     margin-top: 5px;
