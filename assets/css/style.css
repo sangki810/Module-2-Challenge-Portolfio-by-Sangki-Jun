@@ -106,8 +106,8 @@ a.navbar:hover {
 /* css for photo-block elements in work section */
 #game-finder{
     height: 300px;
-    width: 1015px;
-    border: var(--light) 3px solid;
+    width: 1020px;
+    border: var(--light) 5px solid;
     margin-bottom: 10px;
     background-image: url("../../assets/images/Game\ Finder.jpg");
     background-position: center;
@@ -117,7 +117,7 @@ a.navbar:hover {
 #led-wall {
     height: 150px;
     width: 500px;
-    border: var(--light) 3px solid;
+    border: var(--light) 5px solid;
     margin-bottom: 10px;
     background-image: url("../../assets/images/led-wall.jpg");
     background-size: cover;
@@ -127,7 +127,7 @@ a.navbar:hover {
 #calculator {
     height: 150px;
     width: 500px;
-    border: var(--light) 3px solid;
+    border: var(--light) 5px solid;
     margin-bottom: 10px;
     background-image: url("../../assets/images/calculator.jpg");
     background-size: cover;
@@ -136,7 +136,7 @@ a.navbar:hover {
 #pastel-puzzles {
     height: 150px;
     width: 500px;
-    border: var(--light) 3px solid;
+    border: var(--light) 5px solid;
     margin-bottom: 10px;
     background-image: url("../../assets/images/pastel-puzzles.jpg");
     background-size: cover;
@@ -146,7 +146,7 @@ a.navbar:hover {
 #run-buddy {
     height: 150px;
     width: 500px;
-    border: var(--light) 3px solid;
+    border: var(--light) 5px solid;
     margin-bottom: 10px;
     background-image: url("../../assets/images/run-buddy.jpg");
     background-size: cover;
@@ -237,7 +237,7 @@ footer {
     #game-finder {
         height: 150px;
         width: 500px;
-        border: var(--light) 3px solid;
+        border: var(--light) 5px solid;
         margin-bottom: 10px;
         background-image: url("../../assets/images/Game\ Finder.jpg");
         background-position: center;
