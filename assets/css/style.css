@@ -15,7 +15,7 @@ body {
     background-color: #f0f8ff;
 }
 
-/* css for all header content */
+/* css for header content */
 header {
     padding: 15px;
     background-color: var(--dark);
@@ -71,11 +71,12 @@ a.navbar:hover {
     margin-right: 15px;
 }
 
-/* css for all main content */
+/* css for main content */
 .body {
     display: flex; 
     justify-content: space-between;
     padding: 20px;
+    margin-left: 150px;
 }
 
 .body h3 {
@@ -94,7 +95,11 @@ a.navbar:hover {
 
 .content ul li {
     display: inline;
-    padding: 20px;
+    padding-right: 20px;
+}
+
+#aboutme p {
+    width: 70%;
 }
 
 /* css for photo-block elements in work section */
@@ -146,11 +151,6 @@ a.navbar:hover {
     background-size: cover;
 }
 
-.row1, 
-.row2 {
-    display: flex;
-}
-
 .tag1 {
     display: inline-block;
     color: var(--dark);
@@ -167,12 +167,17 @@ a.navbar:hover {
     margin-top: 50px;
 }
 
+.row1, 
+.row2 {
+    display: flex;
+}
+
 #game-finder:hover,
 #led-wall:hover,
 #calculator:hover,
 #pastel-puzzles:hover,
 #run-buddy:hover {
-    opacity: .5;
+    /* opacity: .5; */
     filter:invert(1);
 }
 
@@ -190,7 +195,6 @@ a.contacts:hover {
 
 #contact-list {
     margin-top: 5px;
-    
 }
 
 .list {
@@ -212,12 +216,17 @@ footer {
 @media screen and (max-width: 1124px) {
     .body {
         display: block;
+        margin-left: 0px;
     }
 
     .body h3 {
         border-right: none;
         border-bottom: var(--dark) 3px solid;
         text-align: center;
+    }
+
+    #aboutme p {
+        width: 100%;
     }
 
     #game-finder {
@@ -249,5 +258,13 @@ footer {
     .row1,
     .row2 {
         flex-direction: column;
+    }
+
+    #contact-list {
+        text-align: center;
+    }
+
+    #resume-list {
+        text-align: center;
     }
 }
