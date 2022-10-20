@@ -85,7 +85,7 @@ a.navbar:hover {
     padding-right: 15px;
     border-right: var(--dark) 3px solid;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
+    font-size: xxx-large;
 }
 
 .content {
@@ -100,6 +100,7 @@ a.navbar:hover {
 
 #aboutme p {
     width: 70%;
+    font-size: x-large;
 }
 
 /* css for photo-block elements in work section */
@@ -194,7 +195,8 @@ a.contacts:hover {
 }
 
 #contact-list {
-    margin-top: 5px;
+    margin-top: 15px;
+    font-size: x-large;
 }
 
 .list {
@@ -203,7 +205,8 @@ a.contacts:hover {
 
 /*  css for resume section */
 #resume-list {
-    margin-top: 5px;
+    margin-top: 15px;
+    font-size: x-large;
 }
 
 /* css for footer */
@@ -223,10 +226,12 @@ footer {
         border-right: none;
         border-bottom: var(--dark) 3px solid;
         text-align: center;
+        font-size: xx-large;
     }
 
     #aboutme p {
         width: 100%;
+        font-size: large;
     }
 
     #game-finder {
