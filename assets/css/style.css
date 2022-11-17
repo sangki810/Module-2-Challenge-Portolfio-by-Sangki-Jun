@@ -114,12 +114,12 @@ a.navbar:hover {
     background-size: cover;
 }
 
-#led-wall {
+#cinemafiles {
     height: 150px;
     width: 500px;
     border: var(--light) 5px solid;
     margin-bottom: 10px;
-    background-image: url("../../assets/images/led-wall.jpg");
+    background-image: url("../../assets/images/cinemafiles.jpg");
     background-size: cover;
     margin-right: 10px;
 }
@@ -174,7 +174,7 @@ a.navbar:hover {
 }
 
 #game-finder:hover,
-#led-wall:hover,
+#cinemafiles:hover,
 #calculator:hover,
 #pastel-puzzles:hover,
 #run-buddy:hover {
@@ -253,7 +253,7 @@ footer {
     }
 
     #game-finder,
-    #led-wall,
+    #cinemafiles,
     #calculator,
     #pastel-puzzles,
     #run-buddy {
