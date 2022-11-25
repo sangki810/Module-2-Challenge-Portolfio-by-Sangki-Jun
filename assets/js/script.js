@@ -8,7 +8,7 @@ function handleGameFinderLocation() {
 };
 
 function handleCinemafilesLocation() {
-    window.location.href="https://cinemafiles.herokuapp.com/";
+    window.location.href="https://cinemafiles-by-cinemaphiles.herokuapp.com/";
 };
 
 // event listener for click on game-finder
